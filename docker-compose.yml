@@ -1,0 +1,14 @@
+
+services:
+  # Vamos montar um serviço que chamaremos de "meu_servidor"
+  meu_servidor:
+    # Use a imagem "httpd:2.4" (a plataforma verde do Apache)
+    image: httpd:2.4
+
+    # Conecte a porta 8080 do seu PC à porta 80 do container
+    ports:
+      - "8080:80"
+
+    # Pegue tudo da pasta "app" (nosso castelo) e sincronize com a pasta do site dentro do container
+    volumes:
+      - ./app:/usr/local/apache2/htdocs/
