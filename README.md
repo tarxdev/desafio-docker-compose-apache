@@ -49,4 +49,4 @@ docker compose down
 
 ## 👨‍💻 Autor
 
-Feito com ❤️ por **Tarciso Ferreira**
+Feito com por **Tarciso Ferreira**
