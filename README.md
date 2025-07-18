@@ -72,5 +72,6 @@ Para parar e remover o container, navegue até a pasta do projeto no terminal e 
 Bash
 
 docker compose down
+
 👨‍💻 Autor
-Feito com ❤️ por [Seu Nome Aqui].
+Feito por Tarciso Ferreira.
